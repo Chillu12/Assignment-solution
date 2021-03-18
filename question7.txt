@@ -1,0 +1,18 @@
+O7.Are there cases where I must use a for loop but not a while, or vice versa?
+In general, you should use for loop when you know how many times the loop should run. If you want the loop to break
+based on a condition other than number of times it runs, you should use while loop.
+
+Typically,
+
+<initialization>
+while(<condition>) {
+...
+<updation>
+}
+
+is equivalent to:
+
+for(<initialization>;<condition>;<updation>)
+{
+    ....
+}
