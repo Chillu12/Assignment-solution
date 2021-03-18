@@ -1,0 +1,6 @@
+4.What is the difference between ++i and i++
+++i is a pre-increment operator. which increment the value of i during the execution and it provides the increment value of i.
+++i means first use the value of i and then increment.
+
+i++ is a post-increment operator. which increment the value of i after execution and it provide the current value of i first and then increment i.
+i++ means first increment the value by 1 and then use .
